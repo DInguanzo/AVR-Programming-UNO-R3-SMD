@@ -15,7 +15,11 @@ int main(void) {
   // ------ Event loop ------ //
   while (1) {
 
+<<<<<<< HEAD
     PORTB = 0b00100000;          /* Turn on fith LED bit/pin in PORTB */
+=======
+    PORTB = 0b00100000;          /* Turn on fifth LED bit/pin in PORTB */
+>>>>>>> b3ab4dd (corrected spelling)
     _delay_ms(500);                                           /* wait */
 
     PORTB = 0b00000000;          /* Turn off all B pins, including LED */
