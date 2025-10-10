@@ -3,7 +3,7 @@
 #include <avr/io.h>
 #include <util/delay.h>
 
-#define LED      PB0
+#define LED      PB5
 #define LED_DDR  DDRB
 #define LED_PORT PORTB
 
