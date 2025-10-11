@@ -4,6 +4,14 @@ Code and Examples from "Make: AVR Programming"
 Welcome!
 --------
 
+This is a fork of the code and examples from "Make: AVR Programming" that I've addapted to work with the Arduino Uno R3 (I'm using the SMD variant, but it shouldn't matter which UNO R3 you're using).
+
+![Pinout diagram of an Arduino Uno R3 SMD](images/Pinout-UNORev3SMD_latest.pdf.png)
+
+I'm working on this as a side project to learn more about microcontrollers in general and I just so happen to have an Arduino Uno R3 SMD on hand. I hope anybody reading this find this code useful, as well as the addition of some documentation (README's, images, etc.) that I add to this fork.
+
+
+
 Here you'll find all the code (and more!) for the Maker Media book 
  [Make: AVR Programming](http://shop.oreilly.com/product/0636920028161.do).
 
@@ -81,14 +89,14 @@ More!
 
 You've read the book, you've built the projects, you've worked through the code.
 But still you hunger for more projects, more examples, more, more, more!
-If I may toot my own horn, you should visit [LittleHacks.org](http://littlehacks.org)
+If I may toot my own horn, you should visit [~~LittleHacks.org~~](http://littlehacks.org)
 where I blog about whatever microcontroller projects I'm currently up to.  
 
 In particular, if you're reading
  [Make: AVR Programming](http://shop.oreilly.com/product/0636920028161.do), and
 you're interested in fully-elaborated versions of the projects with more
 photos, videos, and explanation than could fit in a book, head on over to
- [LittleHacks.org's AVR-Programming Section](http://littlehacks.org/AVR-Programming).  
+ [~~LittleHacks.org's AVR-Programming Section~~](http://littlehacks.org/AVR-Programming). No longer an active webpage :(
 
 Once you've exhausted all of these resources, you should *definitely* head over
 to [The Cornell University ECE 4760 Final
