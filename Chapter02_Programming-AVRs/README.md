@@ -14,7 +14,7 @@ Below is what I enter into my terminal to generate the machine code:
 make
 ```
 
-That should generate some files (blinkLED.elf, blinkLED.map, blinkLED.o)
+That should generate some files (blinkLED.elf, blinkLED.map, blinkLED.o, etc.)
 
 Now it's time to flash the Arduino:
 
