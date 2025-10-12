@@ -2,6 +2,8 @@
 
 This chapter is mainly focused on making sure you've got your environment set up correctly.
 
+![GIF of Arduino Uno R3 blinking the built in LED](../GIFS/Blink.gif)
+
 ## Building The Code
 
 Before this point, I never really used Makefiles before so I didn't really know how to use them or what they were used for.
