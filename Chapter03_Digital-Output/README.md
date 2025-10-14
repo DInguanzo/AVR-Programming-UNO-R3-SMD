@@ -2,7 +2,7 @@
 
 This chapter is focused on using digital output pins to make a persistance of vision (POV) toy.
 
-To not trigger an epileptic seizure, I decided not to post the video of my attempt to record the invader code found in the `povToy` code. But if you'd like to see it, I've saved it [under the GIFS folder](GIFS/invaders.gif)
+To not trigger an epileptic seizure, I decided not to post the video of my attempt to record the invader code found in the `povToy` code. But if you'd like to see it, I've saved it [under the GIFS folder](../GIFS/invaders.gif)
 
 ## Building The Code
 
