@@ -6,13 +6,13 @@
 
 // -------- Functions --------- //
 void POVDisplay(uint8_t oneByte) {
-  PORTB = oneByte;
+  PORTD = oneByte;
   _delay_ms(2);
 }
 
 int main(void) {
   // -------- Inits --------- //
-  DDRB = 0xff;                    /* Set up all of LED pins for output */
+  DDRD = 0xff;                    /* Set up all of LED pins for output */
   // ------ Event loop ------ //
   while (1) {                                              /* mainloop */
     POVDisplay(0b00001110);
