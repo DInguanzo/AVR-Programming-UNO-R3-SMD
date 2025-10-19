@@ -2,7 +2,21 @@
 
 This chapter is focused on using digital output pins to make a persistance of vision (POV) toy.
 
-To not trigger an epileptic seizure, I decided not to post the video of my attempt to record the invader code found in the `povToy` code. But if you'd like to see it, I've saved it [under the GIFS folder](../GIFS/invaders.gif)
+To not trigger an epileptic seizure, I decided not to post the video of my attempt to record the invader code found in the `povToy` code. But if you'd like to see it, I've saved it [under the GIFS folder](../GIFS/Chapter_03/invaders.gif)
+
+## Materials Used
+
+* Arduino Uno R3
+* (8) LEDs (the color is not important)
+* (8) Resistors (at least 220, but anything greater is okay)
+* Breadboard
+* Jumper wires
+
+## FRITZING Diagram
+
+Here's the fritzing diagram I used for this chapter. It's difficult to see, but I populated every other space on the breadboard with the LEDs and resistors used in this chapter.
+
+![Fritzing Diagram used for this chapter](../images/Chapter_03/Chapter_03_Fritzing.png)
 
 ## Building The Code
 

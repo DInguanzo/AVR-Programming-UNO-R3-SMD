@@ -42,16 +42,16 @@ uint8_t Star1UP[] = {
 int main(void) {
   uint8_t i;
 
-  DDRB = 0xff;                                           /* all output */
+  DDRD = 0xff;                                           /* all output */
 
   while (1) {                                              /* mainloop */
     for (i = 0; i < sizeof(Star1UP); i++) {
            /* sizeof(Star1UP) returns the number of bytes in our array, */
-      PORTB = Star1UP[i];
+      PORTD = Star1UP[i];
       _delay_ms(DELAYTIME);
     }
 
-    PORTB = 0;                    /* blank for gap between repetitions */
+    PORTD = 0;                    /* blank for gap between repetitions */
     _delay_ms(5 * DELAYTIME);
 
   }                                                    /* end mainloop */

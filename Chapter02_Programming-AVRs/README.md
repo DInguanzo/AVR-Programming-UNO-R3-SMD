@@ -2,7 +2,7 @@
 
 This chapter is mainly focused on making sure you've got your environment set up correctly.
 
-![GIF of Arduino Uno R3 blinking the built in LED](../GIFS/Blink.gif)
+![GIF of Arduino Uno R3 blinking the built in LED](../GIFS/Chapter_02/Blink.gif)
 
 ## Building The Code
 

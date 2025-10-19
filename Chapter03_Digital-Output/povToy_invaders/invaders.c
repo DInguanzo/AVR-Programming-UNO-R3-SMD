@@ -8,8 +8,8 @@
 #include <util/delay.h>
 #define DELAYTIME 2                                              /* ms */
 
-#define LED_PORT                PORTB
-#define LED_DDR                 DDRB
+#define LED_PORT                PORTD
+#define LED_DDR                 DDRD
 
 uint8_t invaderData1[] = {
   0b01110000,
