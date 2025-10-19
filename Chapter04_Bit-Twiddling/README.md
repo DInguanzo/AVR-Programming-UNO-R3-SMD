@@ -2,6 +2,8 @@
 
 This chapter is focused on manipulating individual bits within the GPIO registers without effecting the rest of the byte.
 
+Images COMING SOON
+
 ## Materials Used
 
 **Note:** The same materials as chapter 3
