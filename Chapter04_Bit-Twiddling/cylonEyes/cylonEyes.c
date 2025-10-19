@@ -5,15 +5,15 @@
 #include <util/delay.h>                     /* Functions to waste time */
 
 #define DELAYTIME 85                                   /* milliseconds */
-#define LED_PORT                PORTB
-#define LED_PIN                 PINB
-#define LED_DDR                 DDRB
+#define LED_PORT                PORTD
+#define LED_PIN                 PIND
+#define LED_DDR                 DDRD
 
 int main(void) {
 
   // -------- Inits --------- //
   uint8_t i=0;
-  LED_DDR = 0xff;               /* Data Direction Register B:
+  LED_DDR = 0xff;               /* Data Direction Register D:
                                    all set up for output */
 
   // ------ Event loop ------ //

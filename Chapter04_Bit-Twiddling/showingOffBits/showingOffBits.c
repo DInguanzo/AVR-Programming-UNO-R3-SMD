@@ -6,8 +6,8 @@
 #include <util/delay.h>                     /* Functions to waste time */
 
 #define DELAYTIME 85                                   /* milliseconds */
-#define LED_PORT                PORTB
-#define LED_DDR                 DDRB
+#define LED_PORT                PORTD
+#define LED_DDR                 DDRD
 
 int main(void) {
 

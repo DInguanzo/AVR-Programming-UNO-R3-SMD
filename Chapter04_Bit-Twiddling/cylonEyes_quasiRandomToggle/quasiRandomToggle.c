@@ -5,9 +5,9 @@
 #include <util/delay.h>                     /* Functions to waste time */
 
 #define DELAYTIME 45                                   /* milliseconds */
-#define LED_PORT                PORTB
-#define LED_PIN                 PINB
-#define LED_DDR                 DDRB
+#define LED_PORT                PORTD
+// #define LED_PIN                 PIND  Commented out to not cause confusion
+#define LED_DDR                 DDRD
 
 int main(void) {
 

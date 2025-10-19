@@ -3,6 +3,8 @@
 #include <util/delay.h>
 
 #define DELAY     100                                            /* ms */
+#define LED_PORT  PORTD
+#define LED_DDR   DDRD
 
 static inline uint8_t LFSR8_step(uint8_t random);
 static inline uint16_t LFSR16(uint16_t random);
@@ -11,7 +13,7 @@ int main(void) {
 
   // -------- Inits --------- //
 
-  DDRB = 0xff;                                   /* output on all LEDs */
+  LED_DDR = 0xff;                                   /* output on all LEDs */
   uint16_t random = 123;           /* can't init to 0, any other is ok */
 
   // ------ Event loop ------ //
@@ -19,7 +21,7 @@ int main(void) {
 
                                                  /* Display and output */
     random = LFSR16(random);
-    PORTB = (random >> 8);
+    LED_PORT = (random >> 8);
     _delay_ms(DELAY);
 
   }                                                  /* End event loop */
